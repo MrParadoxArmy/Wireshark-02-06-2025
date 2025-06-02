@@ -1,12 +1,12 @@
-# ”9ß9 Wireshark Network Traffic Capture & Protocol Analysis
+# ðŸ“¡ Wireshark Network Traffic Capture & Protocol Analysis
 
-## •0ã1 Objective
+## ðŸ§­ Objective
 
 This project demonstrates live network traffic capture and protocol analysis using Wireshark. The primary focus is on identifying and interpreting traffic from key protocols including DNS, TCP, ICMP, and TLS. The exercise aims to provide hands-on experience with real-time packet inspection and network behavior analysis across OSI model layers.
 
 ---
 
-## •0ã4 Tools & Environment
+## ðŸ§° Tools & Environment
 
 - **Network Analyzer:** Wireshark
 - **Operating System:** Windows 10/11
@@ -15,7 +15,7 @@ This project demonstrates live network traffic capture and protocol analysis usi
 
 ---
 
-## •0•0„1‚5 Procedure
+## ðŸ› ï¸ Procedure
 
 1. **Wireshark Setup**
    - Installed and configured Wireshark.
@@ -33,34 +33,34 @@ This project demonstrates live network traffic capture and protocol analysis usi
 
 4. **Filtering & Analysis**
    - Applied Wireshark display filters:
-     - `dns` ¨C to isolate domain name resolution queries
-     - `tcp` ¨C to view TCP handshake and session data
-     - `icmp` ¨C to inspect echo requests/replies
-     - `tls` ¨C to observe encrypted HTTPS connections
+     - `dns` â€“ to isolate domain name resolution queries
+     - `tcp` â€“ to view TCP handshake and session data
+     - `icmp` â€“ to inspect echo requests/replies
+     - `tls` â€“ to observe encrypted HTTPS connections
    - Analyzed packet headers, flags, and protocol payloads.
 
 ---
 
-## ”9Ü7 Deliverables
+## ðŸ“ Deliverables
 
-- `packet_capture.pcapng` ¨C Raw packet capture file
-- `report.md` ¨C Detailed breakdown of protocol interactions and sample packet insights
-- `README.md` ¨C Workflow documentation and analysis summary
+- `packet_capture.pcapng` â€“ Raw packet capture file
+- `report.md` â€“ Detailed breakdown of protocol interactions and sample packet insights
+- `README.md` â€“ Workflow documentation and analysis summary
 
 ---
 
-## •0â7 Protocols Observed
+## ðŸ§© Protocols Observed
 
 | Protocol | OSI Layer | Purpose | Notes |
 |----------|-----------|---------|-------|
-| **DNS**  | Layer 7 ¨C Application | Resolves domain names to IPs | Primarily UDP, some TCP fallback |
-| **TCP**  | Layer 4 ¨C Transport   | Reliable connection-based transport | Captured full 3-way handshake and ACKs |
-| **ICMP** | Layer 3 ¨C Network     | Network diagnostics (ping) | Echo requests and replies observed |
-| **TLS**  | Layer 6 ¨C Presentation| Secure encrypted communication | TLS 1.2 handshake and certificate exchange seen |
+| **DNS**  | Layer 7 â€“ Application | Resolves domain names to IPs | Primarily UDP, some TCP fallback |
+| **TCP**  | Layer 4 â€“ Transport   | Reliable connection-based transport | Captured full 3-way handshake and ACKs |
+| **ICMP** | Layer 3 â€“ Network     | Network diagnostics (ping) | Echo requests and replies observed |
+| **TLS**  | Layer 6 â€“ Presentation| Secure encrypted communication | TLS 1.2 handshake and certificate exchange seen |
 
 ---
 
-## ”9Ý6 Highlights & Insights
+## ðŸ“Š Highlights & Insights
 
 - **DNS:** Observed A and AAAA queries with corresponding responses from public DNS (e.g., `8.8.8.8`).
 - **TCP:** Captured connection initiation (SYN), establishment (SYN-ACK), and teardown (FIN/ACK).
@@ -69,7 +69,7 @@ This project demonstrates live network traffic capture and protocol analysis usi
 
 ---
 
-## ”9Ã1 Conclusion
+## ðŸ Conclusion
 
 Through this lab, key practical skills were gained:
 - Navigating and configuring Wireshark for real-time capture.
@@ -81,7 +81,7 @@ This foundational analysis supports more advanced activities such as traffic ano
 
 ---
 
-## ”9Þ0 Additional Notes
+## ðŸ“Ž Additional Notes
 
 - Ensure you run Wireshark as administrator for full interface access.
 - TLS decryption requires session keys (not covered in this lab).
