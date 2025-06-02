@@ -87,3 +87,6 @@ This foundational analysis supports more advanced activities such as traffic ano
 - TLS decryption requires session keys (not covered in this lab).
 - Packet timestamps and sizes are useful for performance diagnostics and latency tracking.
 
+
+Here Are the capture as a .pcap file I can't upload it - 
+Link - https://drive.google.com/file/d/1M88AAxLrXARSflgyAyiAibyGp9M6-U0V/view?usp=drivesdk
